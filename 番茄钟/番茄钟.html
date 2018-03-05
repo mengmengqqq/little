@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="番茄钟.css">
+        <script src="番茄钟.js"></script>
+        </head>
+        <body>
+        <div>
+            <p>请输入工作时间(/分钟)：</p>
+            <form id=”myForm” name=”myForm”>
+                <input type="text" name="form" id="worktime" value="25" size="5">
+            </form>
+        </div>
+        <div>
+            <p>请输入多久后进入休息时间(/分钟)：</p>
+            <input type="text" name="time" class="resttime" value="5" size="5">
+        </div>
+        <div>
+            <p>请输入几次工作后停止(/分钟)：</p>
+        <input type="text" name="time" class="times" value="120" size="5">
+    </div>
+    <span onclick="clicki()" id="kaishi" class="anniu">
+       <input type="button" value="开始">
+    </span>
+    <span onClick="clickii()" class="anniu">
+        <input type="button" value="暂停">
+    </span>
+    <span onClick="clickiii()" class="anniu">
+        <input type="button" value="重置">
+    </span>
+    <div class="screen">
+        <div id="timer"></div>
+        <div class="screen2"></div>
+    </div>
+</body>
+</html>

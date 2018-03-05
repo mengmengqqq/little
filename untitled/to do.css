@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img{
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+#t-b{
+    width: 1000px;
+    height: 100px;
+    border: 1px solid #000000;
+    border-spacing: 0;
+    padding: 0;
+    margin-left: 250px;
+}
+#t-bhead{
+    width: 1000px;
+    height: 70px;
+    font-size: 50px;
+    color: #000000;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+}
+.t-bbody1{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: #000000;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+}
+.t-bbody2{
+    width: 650px;
+    height: 40px;
+    font-size: 30px;
+    color: #000000;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+}
+.t-bbody3{
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    color: #000000;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000000;
+}
+#tname{
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #000000;
+}
+#tthings{
+    width: 650px;
+    height: 40px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #000000;
+}
+#buttonn{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #000000;
+    background-color: aqua;
+    padding: 0;
+}
+#form{
+    position: fixed;
+    bottom: 100px;
+    left: 250px;
+}
+
+
